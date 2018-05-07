@@ -14,6 +14,9 @@
 		639229FA20A04F7600FB9757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639229F820A04F7600FB9757 /* LaunchScreen.storyboard */; };
 		63922A0520A04F7700FB9757 /* RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63922A0420A04F7700FB9757 /* RestaurantTests.swift */; };
 		63922A1020A04F7700FB9757 /* RestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63922A0F20A04F7700FB9757 /* RestaurantUITests.swift */; };
+		63922A2020A0569300FB9757 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63922A1F20A0569300FB9757 /* MenuTableViewController.swift */; };
+		63922A2220A056A600FB9757 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63922A2120A056A600FB9757 /* CategoryTableViewController.swift */; };
+		63922A2420A056B300FB9757 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63922A2320A056B300FB9757 /* OrderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		63922A0B20A04F7700FB9757 /* RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63922A0F20A04F7700FB9757 /* RestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUITests.swift; sourceTree = "<group>"; };
 		63922A1120A04F7700FB9757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63922A1F20A0569300FB9757 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		63922A2120A056A600FB9757 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		63922A2320A056B300FB9757 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		639229E320A04F6B00FB9757 = {
 			isa = PBXGroup;
 			children = (
+				63922A2120A056A600FB9757 /* CategoryTableViewController.swift */,
+				63922A2320A056B300FB9757 /* OrderTableViewController.swift */,
 				639229EE20A04F6B00FB9757 /* Restaurant */,
 				63922A0320A04F7700FB9757 /* RestaurantTests */,
 				63922A0E20A04F7700FB9757 /* RestaurantUITests */,
@@ -100,6 +108,7 @@
 				639229EF20A04F6B00FB9757 /* AppDelegate.swift */,
 				639229F120A04F6B00FB9757 /* ViewController.swift */,
 				639229F320A04F6B00FB9757 /* Main.storyboard */,
+				63922A1F20A0569300FB9757 /* MenuTableViewController.swift */,
 				639229F620A04F7600FB9757 /* Assets.xcassets */,
 				639229F820A04F7600FB9757 /* LaunchScreen.storyboard */,
 				639229FB20A04F7600FB9757 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63922A2020A0569300FB9757 /* MenuTableViewController.swift in Sources */,
+				63922A2420A056B300FB9757 /* OrderTableViewController.swift in Sources */,
 				639229F220A04F6B00FB9757 /* ViewController.swift in Sources */,
 				639229F020A04F6B00FB9757 /* AppDelegate.swift in Sources */,
+				63922A2220A056A600FB9757 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
